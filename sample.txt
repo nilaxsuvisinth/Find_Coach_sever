@@ -1,0 +1,38 @@
+{
+  "coachInfo": {
+    "name": "John Doe",
+    "address": "123 Main St, Anytown, USA",
+    "gender": "Male",
+    "contactNumber": "123-456-7890",
+    "currentEmployment": "ABC Company",
+    "yearOfExperience": "5"
+  },
+  "courseDetails": {
+    "courseName": "Introduction to Programming",
+    "courseDescription": "Learn the basics of programming and how to write your first program.",
+    "courseDuration": "12 weeks",
+    "courseFees": 500,
+    "sessions": [
+      {
+        "type": "group",
+        "day": "weekday",
+        "time": {
+          "start": "9:00 AM",
+          "end": "11:00 AM"
+        }
+      },
+      {
+        "type": "personal",
+        "day": "weekend",
+        "time": {
+          "start": "1:00 PM",
+          "end": "3:00 PM"
+        }
+      }
+    ],
+    "image": {
+      "url": "https://example.com/image.jpg",
+      "public_id": "sample_image_id"
+    }
+  }
+}
